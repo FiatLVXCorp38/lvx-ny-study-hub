@@ -1,26 +1,31 @@
-# LVX NY STUDY HUB — Corrections Promotional Exam
+# LVX Law Enforcement Learning Center
 
-Static browser-based study hub based on the three supplied study PDFs.
+A browser-based New York county corrections learning center for entry and promotional candidates.
+
+## Learning paths
+- County Correction Officer — Entry
+- Correction Sergeant — Promotional
+- Correction Lieutenant — Promotional
+- Correction Captain — Promotional
+- Chief / Chief-level Command — Promotional
+
+All paths share the New York State Minimum Standards foundation. Each path adds role-appropriate study priorities. The current course structure is an instructional framework; exact tested subjects must always be checked against the applicable current examination announcement.
 
 ## Included
-- 38 Parts and 237 extracted minimum-standards sections, with searchable full text.
-- 209 source excerpts surfaced by numeric and deadline/frequency language.
-- Grammar lessons, Usage / Problem Words, Punctuation, and Preparing Written Material.
-- Practice drills with teach-as-you-go explanations, end-of-drill review, a Lieutenant's Challenge scenario track, and targeted missed-question review.
-- Weakness Log, topic error trends, session history, notes, and daily checklist.
-- Browser-local progress storage and JSON export.
-- Original uploaded PDFs included as source references.
+- 38 Parts and 237 extracted minimum-standards sections from the supplied source compilation.
+- 209 numeric/timeframe excerpts surfaced by automated extraction; use the full section to verify context and exceptions.
+- Grammar, usage, punctuation, reading comprehension, and written-material training.
+- Teach-as-you-go practice, answer explanations, supervisory scenarios, weakness log, study planner, session history, and progress export.
+- Source Library containing supplied study guides, exam announcements, and reference documents.
 
-## Run
+## Run locally
 Open `index.html` in a modern browser. No build step is required.
 
-## Publish to GitHub Pages
-1. Create a repository named `lvx-ny-study-hub`.
-2. Upload the files in this folder or push with Git.
-3. In Settings → Pages, choose Deploy from a branch, select `main` and `/ (root)`, and save.
+## Publish
+Upload the contents of this folder to a GitHub repository and enable GitHub Pages from the `main` branch and root folder.
 
-## Progress
-Progress is saved in browser localStorage on the device/browser used. Export progress periodically. This starter version does not synchronize between devices or users.
+## Progress and account security
+This is still a static prototype. Progress is stored in browser localStorage on the current device. It does not yet have student accounts, paid access, server-side progress sync, or content protection. Those are part of the next production build using a backend such as Supabase and payment processing such as Stripe.
 
 ## Source integrity
-The standards text is extracted from the uploaded 171-page PDF; this is not an independent legal update. Check current official regulations and amendments. The time index is an aid: open the full cited section to verify exceptions, context, and responsible party. Grammar and writing lessons are organized from the supplied CSEA preparation booklets. Questions are original practice questions, not actual promotional-exam questions.
+The minimum-standards text and excerpts are study aids based on supplied source documents, not legal advice or an independent update of current regulations. The numeric/timeframe index is not guaranteed exhaustive. Verify current official rules, amendments, and local policies. Some supplied guides are older and may not reflect current exam formats. Practice questions are original or adapted for learning and are not actual confidential examination questions. The supplied CSEA booklets carry copyright notices; this project links to user-provided source copies and does not reproduce their full contents as lessons.
